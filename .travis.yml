@@ -6,4 +6,4 @@ before_instal:
   - docker build -t msunova/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true msunova/docker-react npm trun test 
+  - docker run -e CI=true msunova/docker-react npm run test 
